@@ -16,7 +16,7 @@ PCGAN: Partition-Controlled Human Image Generation (AAAI 2019)
 * tqdm 
 
 ### Clone repository
-```git clone https://github.com/AliaksandrSiarohin/pose-gan/```
+```git clone https://github.com/AlanIIE/PCGAN.git```
 
 ### Training
 In order to train a model:

@@ -82,7 +82,7 @@ python3 train.py --output_dir output/full --checkpoints_dir output/full --datase
 
 ### Testing
 0. Download checkpoints (https://drive.google.com/drive/folders/1xAzxIjLE8mWqOiueuKXK0A-fY0miKYyl?usp=sharing).
-1. Run ```python test.py --generator_checkpoint path/to/generator/checkpoint``` (and same parameters as in train.py). It generate images and compute inception score, SSIM score and their masked versions.
+1. Run ```python test.py --generator_checkpoint path/to/generator/checkpoint``` (and same parameters as in train.py. You can test on COCO2017 and LIP using the model trained on market). It generate images and compute inception score, SSIM score and their masked versions.
 2. To compute FID score, ```cd gan``` and run ```python3 fid.py ../output/fasion_maskrcnn_result_imgs/ ../output/fasion_maskrcnn_train_imgs/ -i /tmp/imagenet/ --gpu 0```
 
 Citation:

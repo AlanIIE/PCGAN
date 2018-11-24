@@ -22,7 +22,8 @@ PCGAN: Partition-Controlled Human Image Generation (AAAI 2019)
 In order to train a model:
 
 1. You can download all the pre-processed data from https://drive.google.com/drive/folders/1Bm8vd1xHFg6vCf78S7RchNRsYPzvx60x?usp=sharing, extract and move the folders to ```./data```.
-You can download the data annotations from https://drive.google.com/drive/folders/1AeABOFJzp8L7HTm9r78_wdMj2FraGIML?usp=sharing and move the annotation files to ```./data```.
+
+Then you can download the data annotations from https://drive.google.com/drive/folders/1AeABOFJzp8L7HTm9r78_wdMj2FraGIML?usp=sharing and move the annotation files to ```./data```.
 Go to step 4.
 
 
@@ -48,7 +49,7 @@ The LIP can be done in the same way.
 
 1.5.2 For market and DeepFasion:
 
-Copy ```preprocess/maskrcnn.ipynb``` to ```Mask_RCNN/samples/```.
+Copy ```preprocess/maskrcnn.ipynb``` to ```./Mask_RCNN/samples/```.
 Copy the market dataset to ```./market-dataset/```.
 Run ```maskrcnn.ipynb``` to compute the human body mask.
 

@@ -4,8 +4,6 @@ PCGAN: Partition-Controlled Human Image Generation (AAAI 2019)
 [Check out our paper](https://arxiv.org/)
 
 
-![Screenshot](.jpg)
-
 ### Requirment
 * python3
 * Numpy
